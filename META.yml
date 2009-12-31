@@ -1,0 +1,17 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         WebService-TypePad
+version:      0.01_01
+version_from: lib/WebService/TypePad.pm
+installdirs:  site
+requires:
+    HTTP::Request:                 0
+    HTTP::Request::Multi:          0
+    JSON::Any:                     1.17
+    LWP::UserAgent:                0
+    Set::Tiny:                     0
+    Try::Tiny:                     0
+    URI:                           0
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30_01
